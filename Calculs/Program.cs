@@ -17,6 +17,8 @@ namespace Calculs
             int reponse = 0; // saisie de la réponse de l'utilisateur
             string choix; // saisie du choix de l'utilsiateur
             bool correct;
+            val1 = rand.Next(1, 10);
+            val2 = rand.Next(1, 10);
 
             // boucle sur le menu
             choix = "1";
@@ -34,9 +36,7 @@ namespace Calculs
                 {
                     case "1":
 
-                        // choix de l'addition
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
+                        
                         // saisie de la réponse
                         correct = false;
                         while (!correct)
@@ -65,9 +65,7 @@ namespace Calculs
                         break;
                     case "2":
 
-                        // choix de la multiplication
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
+                        
                         // saisie de la réponse
                         correct = false;
                         while (!correct)
